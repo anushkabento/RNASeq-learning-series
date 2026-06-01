@@ -48,15 +48,63 @@ The study contains paired breast cancer and adjacent normal tissue samples.
 
 
 
-GEO Accession: GSE183947
+Processed Data:
+
+GSE183947\_fpkm.csv.gz
 
 
 
-SRA Project: SRP336638
+Raw Data:
+
+Available through SRA
 
 
+
+BioProject:
+
+PRJNA762469
+
+
+
+SRA Study:
+
+SRP336638
+
+
+
+\## Accession Hierarchy
+
+
+
+GSE183947
+
+→ GSM5574685
+
+→ SRX12143676
+
+→ SRR15852393
+
+→ FASTQ Files
+
+
+
+Library Strategy: RNA-Seq
+
+
+
+Library Source: Transcriptomic
+
+
+
+Library Selection: cDNA
+
+
+
+Library Layout: Paired-End
 
 \## Future Workflow
+
+The dataset contains paired-end human breast cancer RNA-Seq data with both tumour and normal samples and is suitable for downstream quality control, alignment, gene quantification, differential expression analysis, and visualisation.
 
 
 
@@ -75,6 +123,4 @@ SRA Project: SRP336638
 7\. Functional Enrichment
 
 8\. Visualization
-
-
 
