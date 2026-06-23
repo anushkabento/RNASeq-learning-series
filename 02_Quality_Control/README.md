@@ -27,6 +27,9 @@ Since this experiment used **paired-end sequencing**, the conversion produced tw
 
 These files contain the paired sequencing reads and will be used as the input for the next stages of the RNA-Seq pipeline like ,FastQC, MultiQC, Read trimming using Trimmomatic.
 
-## What I Learned
-
-Through this project, I learned how raw RNA-Seq sequencing data is stored in the NCBI Sequence Read Archive, how to retrieve it using the SRA Toolkit, and how to convert the downloaded SRA archive into FASTQ files. I also gained a better understanding of paired-end sequencing and how these FASTQ files serve as the starting point for every RNA-Seq analysis pipeline.
+## Key Takeaways
+- Understood the difference between GEO, GSM, SRX and SRR accessions.
+- Learned how RNA-seq data is stored in the Sequence Read Archive.
+- Installed and configured the NCBI SRA Toolkit.
+- Downloaded raw sequencing data from NCBI.
+- Converted SRA archives into paired-end FASTQ files for downstream analysis.
