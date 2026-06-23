@@ -3,13 +3,13 @@ In this project, I moved from understanding the dataset to working with the actu
 
 Instead of downloading the entire dataset (around 60 samples), I chose to work with **Tumor Replicate 1 (SRR15852393)**. Downloading every sample would require a large amount of storage and processing time, so using one representative sample makes it easier to understand the workflow while keeping the project manageable. The compressed SRA file for this sample is approximately **3 GB**.
 
-## What I Did
+# What I Did
 
-### Installing the SRA Toolkit
+# Installing the SRA Toolkit
 
 To access sequencing data from the NCBI Sequence Read Archive (SRA), I first installed the **NCBI SRA Toolkit**. After downloading the toolkit, I extracted it using WinRAR and verified that the installation was successful before moving on to the next step.
 
-### Downloading the Raw Sequencing Data
+# Downloading the Raw Sequencing Data
 
 The sequencing run selected for this project was:
 
@@ -18,7 +18,7 @@ The sequencing run selected for this project was:
 - **Sample:** Tumor Replicate 1
 - **Organism:** *Homo sapiens*
 
-### Converting SRA to FASTQ
+# Converting SRA to FASTQ
 
 Once the download was complete, I converted the SRA file into FASTQ format using the `fasterq-dump` utility.
 
@@ -27,7 +27,7 @@ Since this experiment used **paired-end sequencing**, the conversion produced tw
 
 These files contain the paired sequencing reads and will be used as the input for the next stages of the RNA-Seq pipeline like ,FastQC, MultiQC, Read trimming using Trimmomatic.
 
-## Key Takeaways
+# Key Takeaways
 - Understood the difference between GEO, GSM, SRX and SRR accessions.
 - Learned how RNA-seq data is stored in the Sequence Read Archive.
 - Installed and configured the NCBI SRA Toolkit.
