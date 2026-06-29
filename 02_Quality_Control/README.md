@@ -20,16 +20,12 @@ The sequencing run selected for this project was:
 
 # Converting SRA to FASTQ
 
-Once the download was complete, I converted the SRA file into FASTQ format using the `fasterq-dump` utility.
+Once the download was complete, Im supposed to  convert the SRA file into FASTQ format using the `fasterq-dump` utility.
 
-Since this experiment used **paired-end sequencing**, the conversion produced two FASTQ files
+Since this experiment used paired-end sequencing, the conversion will produce two FASTQ files
  `SRR15852393_1.fastq` & `SRR15852393_2.fastq`
 
 These files contain the paired sequencing reads and will be used as the input for the next stages of the RNA-Seq pipeline like ,FastQC, MultiQC, Read trimming using Trimmomatic.
 
-# Key Takeaways
-- Understood the difference between GEO, GSM, SRX and SRR accessions.
-- Learned how RNA-seq data is stored in the Sequence Read Archive.
-- Installed and configured the NCBI SRA Toolkit.
-- Downloaded raw sequencing data from NCBI.
-- Converted SRA archives into paired-end FASTQ files for downstream analysis.
+Due to repeated interruptions while downloading through the NCBI SRA Toolkit, the same sequencing run (SRR15852393) was downloaded directly from the European Nucleotide Archive (ENA). ENA mirrors the same raw sequencing data available through NCBI, ensuring identical input for downstream RNA-Seq analysis.
+
